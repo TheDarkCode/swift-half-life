@@ -1,12 +1,6 @@
-//
-//  DecayCounter.swift
-//  half-life-equation
-//
-//  Created by Mark Hamilton on 6/19/16.
-//  Copyright © 2016 dryverless. All rights reserved.
-//
+//: Playground - noun: a place where people can play
 
-import Foundation
+import UIKit
 
 public class DecayCounter {
     
@@ -15,16 +9,16 @@ public class DecayCounter {
     private var tau: Float
     private var numHalfLives: Int = 0
     
-    public convenience init?(_ halfLife: Float) {
+    public convenience init?(halfLife: Float) {
         
         self.init(halfLife, 0.0)
         
     }
     
-    public convenience init?(_ halfLife: Float, _ initialValue: Float, _ hLives: Int) {
+    public convenience init?(halfLife: Float, _ initiaValue, _ hLives: Int) {
         
         self.init(halfLife, initialValue)
-        self.numHalfLives = hLives
+        self.numHalfLifes = hLifes
         self.updateForHalfLives()
     }
     
@@ -36,7 +30,7 @@ public class DecayCounter {
         
     }
     
-    public func set(_ newValue: Float) {
+    public func set(newValue: Float) {
         
         self.value = newValue
         self.time = NSDate()
@@ -91,7 +85,7 @@ public class DecayCounter {
     
     private func updateForHalfLives() {
         
-        for _ in 1...self.numHalfLives where self.numHalfLives > 0 {
+        for 1...numHalfLives {
             
             self.performHalf()
             
@@ -100,3 +94,51 @@ public class DecayCounter {
     }
     
 }
+
+public class Doses {
+    
+    var array: [DecayCounter]
+    
+    public init(arr: [DecayCounter]) {
+        
+        self.array = arr
+        
+    }
+    
+    public func getDoseAtCurrentTime() -> Float {
+        
+        var doseTotal: Float = 0.0
+        
+        for dose in array {
+            
+            doseTotal += dose.get()
+            
+        }
+        
+        return doseTotal
+        
+    }
+    
+}
+
+//let decayCounter = DecayCounter(72000, 40, 0)
+//let decayCounter2 = DecayCounter(72000, 40, 1)
+//let decayCounter3 = DecayCounter(7200, 40, 2)
+
+var doseArray = [DecayCounter]()
+
+for i in 1..<121 {
+    
+    doseArray.append(DecayCounter(72000, 40, i))
+    
+}
+
+let doses = Doses(arr: doseArray)
+
+doses.getDoseAtCurrentTime()
+
+//decayCounter.get()
+////decayCounter.update()
+//decayCounter.get()
+
+

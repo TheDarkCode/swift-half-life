@@ -16,6 +16,7 @@
 		4DA16F741D16A89F00756471 /* half_life_equationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA16F731D16A89F00756471 /* half_life_equationTests.swift */; };
 		4DA16F7F1D16A89F00756471 /* half_life_equationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA16F7E1D16A89F00756471 /* half_life_equationUITests.swift */; };
 		4DA16F8D1D16A8D900756471 /* DecayCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA16F8C1D16A8D900756471 /* DecayCounter.swift */; };
+		4DA16F901D16AE2B00756471 /* Doses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA16F8F1D16AE2B00756471 /* Doses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4DA16F7E1D16A89F00756471 /* half_life_equationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = half_life_equationUITests.swift; sourceTree = "<group>"; };
 		4DA16F801D16A89F00756471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DA16F8C1D16A8D900756471 /* DecayCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecayCounter.swift; sourceTree = "<group>"; };
+		4DA16F8E1D16AC4D00756471 /* DecayCounterPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DecayCounterPlayground.playground; sourceTree = "<group>"; };
+		4DA16F8F1D16AE2B00756471 /* Doses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +106,14 @@
 			children = (
 				4DA16F5B1D16A89F00756471 /* AppDelegate.swift */,
 				4DA16F5D1D16A89F00756471 /* ViewController.swift */,
+				4DA16F8E1D16AC4D00756471 /* DecayCounterPlayground.playground */,
 				4DA16F5F1D16A89F00756471 /* Main.storyboard */,
 				4DA16F651D16A89F00756471 /* Assets.xcassets */,
 				4DA16F671D16A89F00756471 /* LaunchScreen.storyboard */,
 				4DA16F6A1D16A89F00756471 /* Info.plist */,
 				4DA16F621D16A89F00756471 /* half_life_equation.xcdatamodeld */,
 				4DA16F8C1D16A8D900756471 /* DecayCounter.swift */,
+				4DA16F8F1D16AE2B00756471 /* Doses.swift */,
 			);
 			path = "half-life-equation";
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 				4DA16F5E1D16A89F00756471 /* ViewController.swift in Sources */,
 				4DA16F5C1D16A89F00756471 /* AppDelegate.swift in Sources */,
 				4DA16F8D1D16A8D900756471 /* DecayCounter.swift in Sources */,
+				4DA16F901D16AE2B00756471 /* Doses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
