@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DA16F5C1D16A89F00756471 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA16F5B1D16A89F00756471 /* AppDelegate.swift */; };
+		4DA16F5E1D16A89F00756471 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA16F5D1D16A89F00756471 /* ViewController.swift */; };
+		4DA16F611D16A89F00756471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA16F5F1D16A89F00756471 /* Main.storyboard */; };
+		4DA16F641D16A89F00756471 /* half_life_equation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DA16F621D16A89F00756471 /* half_life_equation.xcdatamodeld */; };
+		4DA16F661D16A89F00756471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA16F651D16A89F00756471 /* Assets.xcassets */; };
+		4DA16F691D16A89F00756471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA16F671D16A89F00756471 /* LaunchScreen.storyboard */; };
+		4DA16F741D16A89F00756471 /* half_life_equationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA16F731D16A89F00756471 /* half_life_equationTests.swift */; };
+		4DA16F7F1D16A89F00756471 /* half_life_equationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA16F7E1D16A89F00756471 /* half_life_equationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DA16F701D16A89F00756471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DA16F501D16A89E00756471 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DA16F571D16A89E00756471;
+			remoteInfo = "half-life-equation";
+		};
+		4DA16F7B1D16A89F00756471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DA16F501D16A89E00756471 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DA16F571D16A89E00756471;
+			remoteInfo = "half-life-equation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DA16F581D16A89E00756471 /* half-life-equation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "half-life-equation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA16F5B1D16A89F00756471 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DA16F5D1D16A89F00756471 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DA16F601D16A89F00756471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DA16F631D16A89F00756471 /* half_life_equation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = half_life_equation.xcdatamodel; sourceTree = "<group>"; };
+		4DA16F651D16A89F00756471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DA16F681D16A89F00756471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DA16F6A1D16A89F00756471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA16F6F1D16A89F00756471 /* half-life-equationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "half-life-equationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA16F731D16A89F00756471 /* half_life_equationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = half_life_equationTests.swift; sourceTree = "<group>"; };
+		4DA16F751D16A89F00756471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA16F7A1D16A89F00756471 /* half-life-equationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "half-life-equationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA16F7E1D16A89F00756471 /* half_life_equationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = half_life_equationUITests.swift; sourceTree = "<group>"; };
+		4DA16F801D16A89F00756471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DA16F551D16A89E00756471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA16F6C1D16A89F00756471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA16F771D16A89F00756471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DA16F4F1D16A89E00756471 = {
+			isa = PBXGroup;
+			children = (
+				4DA16F5A1D16A89F00756471 /* half-life-equation */,
+				4DA16F721D16A89F00756471 /* half-life-equationTests */,
+				4DA16F7D1D16A89F00756471 /* half-life-equationUITests */,
+				4DA16F591D16A89E00756471 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DA16F591D16A89E00756471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DA16F581D16A89E00756471 /* half-life-equation.app */,
+				4DA16F6F1D16A89F00756471 /* half-life-equationTests.xctest */,
+				4DA16F7A1D16A89F00756471 /* half-life-equationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DA16F5A1D16A89F00756471 /* half-life-equation */ = {
+			isa = PBXGroup;
+			children = (
+				4DA16F5B1D16A89F00756471 /* AppDelegate.swift */,
+				4DA16F5D1D16A89F00756471 /* ViewController.swift */,
+				4DA16F5F1D16A89F00756471 /* Main.storyboard */,
+				4DA16F651D16A89F00756471 /* Assets.xcassets */,
+				4DA16F671D16A89F00756471 /* LaunchScreen.storyboard */,
+				4DA16F6A1D16A89F00756471 /* Info.plist */,
+				4DA16F621D16A89F00756471 /* half_life_equation.xcdatamodeld */,
+			);
+			path = "half-life-equation";
+			sourceTree = "<group>";
+		};
+		4DA16F721D16A89F00756471 /* half-life-equationTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DA16F731D16A89F00756471 /* half_life_equationTests.swift */,
+				4DA16F751D16A89F00756471 /* Info.plist */,
+			);
+			path = "half-life-equationTests";
+			sourceTree = "<group>";
+		};
+		4DA16F7D1D16A89F00756471 /* half-life-equationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DA16F7E1D16A89F00756471 /* half_life_equationUITests.swift */,
+				4DA16F801D16A89F00756471 /* Info.plist */,
+			);
+			path = "half-life-equationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DA16F571D16A89E00756471 /* half-life-equation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DA16F831D16A89F00756471 /* Build configuration list for PBXNativeTarget "half-life-equation" */;
+			buildPhases = (
+				4DA16F541D16A89E00756471 /* Sources */,
+				4DA16F551D16A89E00756471 /* Frameworks */,
+				4DA16F561D16A89E00756471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "half-life-equation";
+			productName = "half-life-equation";
+			productReference = 4DA16F581D16A89E00756471 /* half-life-equation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DA16F6E1D16A89F00756471 /* half-life-equationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DA16F861D16A89F00756471 /* Build configuration list for PBXNativeTarget "half-life-equationTests" */;
+			buildPhases = (
+				4DA16F6B1D16A89F00756471 /* Sources */,
+				4DA16F6C1D16A89F00756471 /* Frameworks */,
+				4DA16F6D1D16A89F00756471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DA16F711D16A89F00756471 /* PBXTargetDependency */,
+			);
+			name = "half-life-equationTests";
+			productName = "half-life-equationTests";
+			productReference = 4DA16F6F1D16A89F00756471 /* half-life-equationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DA16F791D16A89F00756471 /* half-life-equationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DA16F891D16A89F00756471 /* Build configuration list for PBXNativeTarget "half-life-equationUITests" */;
+			buildPhases = (
+				4DA16F761D16A89F00756471 /* Sources */,
+				4DA16F771D16A89F00756471 /* Frameworks */,
+				4DA16F781D16A89F00756471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DA16F7C1D16A89F00756471 /* PBXTargetDependency */,
+			);
+			name = "half-life-equationUITests";
+			productName = "half-life-equationUITests";
+			productReference = 4DA16F7A1D16A89F00756471 /* half-life-equationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DA16F501D16A89E00756471 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dryverless;
+				TargetAttributes = {
+					4DA16F571D16A89E00756471 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4DA16F6E1D16A89F00756471 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4DA16F571D16A89E00756471;
+					};
+					4DA16F791D16A89F00756471 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4DA16F571D16A89E00756471;
+					};
+				};
+			};
+			buildConfigurationList = 4DA16F531D16A89E00756471 /* Build configuration list for PBXProject "half-life-equation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DA16F4F1D16A89E00756471;
+			productRefGroup = 4DA16F591D16A89E00756471 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DA16F571D16A89E00756471 /* half-life-equation */,
+				4DA16F6E1D16A89F00756471 /* half-life-equationTests */,
+				4DA16F791D16A89F00756471 /* half-life-equationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DA16F561D16A89E00756471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA16F691D16A89F00756471 /* LaunchScreen.storyboard in Resources */,
+				4DA16F661D16A89F00756471 /* Assets.xcassets in Resources */,
+				4DA16F611D16A89F00756471 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA16F6D1D16A89F00756471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA16F781D16A89F00756471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DA16F541D16A89E00756471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA16F641D16A89F00756471 /* half_life_equation.xcdatamodeld in Sources */,
+				4DA16F5E1D16A89F00756471 /* ViewController.swift in Sources */,
+				4DA16F5C1D16A89F00756471 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA16F6B1D16A89F00756471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA16F741D16A89F00756471 /* half_life_equationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA16F761D16A89F00756471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA16F7F1D16A89F00756471 /* half_life_equationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DA16F711D16A89F00756471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DA16F571D16A89E00756471 /* half-life-equation */;
+			targetProxy = 4DA16F701D16A89F00756471 /* PBXContainerItemProxy */;
+		};
+		4DA16F7C1D16A89F00756471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DA16F571D16A89E00756471 /* half-life-equation */;
+			targetProxy = 4DA16F7B1D16A89F00756471 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DA16F5F1D16A89F00756471 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DA16F601D16A89F00756471 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DA16F671D16A89F00756471 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DA16F681D16A89F00756471 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DA16F811D16A89F00756471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DA16F821D16A89F00756471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DA16F841D16A89F00756471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "half-life-equation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dryverless.half-life-equation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DA16F851D16A89F00756471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "half-life-equation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dryverless.half-life-equation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4DA16F871D16A89F00756471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "half-life-equationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dryverless.half-life-equationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/half-life-equation.app/half-life-equation";
+			};
+			name = Debug;
+		};
+		4DA16F881D16A89F00756471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "half-life-equationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dryverless.half-life-equationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/half-life-equation.app/half-life-equation";
+			};
+			name = Release;
+		};
+		4DA16F8A1D16A89F00756471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "half-life-equationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dryverless.half-life-equationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "half-life-equation";
+			};
+			name = Debug;
+		};
+		4DA16F8B1D16A89F00756471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "half-life-equationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dryverless.half-life-equationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "half-life-equation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DA16F531D16A89E00756471 /* Build configuration list for PBXProject "half-life-equation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA16F811D16A89F00756471 /* Debug */,
+				4DA16F821D16A89F00756471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DA16F831D16A89F00756471 /* Build configuration list for PBXNativeTarget "half-life-equation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA16F841D16A89F00756471 /* Debug */,
+				4DA16F851D16A89F00756471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4DA16F861D16A89F00756471 /* Build configuration list for PBXNativeTarget "half-life-equationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA16F871D16A89F00756471 /* Debug */,
+				4DA16F881D16A89F00756471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4DA16F891D16A89F00756471 /* Build configuration list for PBXNativeTarget "half-life-equationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA16F8A1D16A89F00756471 /* Debug */,
+				4DA16F8B1D16A89F00756471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4DA16F621D16A89F00756471 /* half_life_equation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4DA16F631D16A89F00756471 /* half_life_equation.xcdatamodel */,
+			);
+			currentVersion = 4DA16F631D16A89F00756471 /* half_life_equation.xcdatamodel */;
+			path = half_life_equation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4DA16F501D16A89E00756471 /* Project object */;
+}
