@@ -15,6 +15,7 @@
 		4DA16F691D16A89F00756471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA16F671D16A89F00756471 /* LaunchScreen.storyboard */; };
 		4DA16F741D16A89F00756471 /* half_life_equationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA16F731D16A89F00756471 /* half_life_equationTests.swift */; };
 		4DA16F7F1D16A89F00756471 /* half_life_equationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA16F7E1D16A89F00756471 /* half_life_equationUITests.swift */; };
+		4DA16F8D1D16A8D900756471 /* DecayCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA16F8C1D16A8D900756471 /* DecayCounter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4DA16F7A1D16A89F00756471 /* half-life-equationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "half-life-equationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA16F7E1D16A89F00756471 /* half_life_equationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = half_life_equationUITests.swift; sourceTree = "<group>"; };
 		4DA16F801D16A89F00756471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA16F8C1D16A8D900756471 /* DecayCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecayCounter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4DA16F671D16A89F00756471 /* LaunchScreen.storyboard */,
 				4DA16F6A1D16A89F00756471 /* Info.plist */,
 				4DA16F621D16A89F00756471 /* half_life_equation.xcdatamodeld */,
+				4DA16F8C1D16A8D900756471 /* DecayCounter.swift */,
 			);
 			path = "half-life-equation";
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				4DA16F641D16A89F00756471 /* half_life_equation.xcdatamodeld in Sources */,
 				4DA16F5E1D16A89F00756471 /* ViewController.swift in Sources */,
 				4DA16F5C1D16A89F00756471 /* AppDelegate.swift in Sources */,
+				4DA16F8D1D16A8D900756471 /* DecayCounter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
