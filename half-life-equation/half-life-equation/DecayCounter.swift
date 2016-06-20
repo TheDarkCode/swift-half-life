@@ -11,7 +11,7 @@ import Foundation
 public class DecayCounter {
     
     private var value: Float
-    private var time: NSDate
+    private var time: Date
     private var tau: Float
     private var numHalfLives: Int = 0
     
@@ -31,7 +31,7 @@ public class DecayCounter {
     public init(_ halfLife: Float, _ initialValue: Float) {
         
         self.value = initialValue
-        self.time = NSDate()
+        self.time = Date()
         self.tau = halfLife / log(2.0)
         
     }
@@ -39,7 +39,7 @@ public class DecayCounter {
     public func set(_ newValue: Float) {
         
         self.value = newValue
-        self.time = NSDate()
+        self.time = Date()
         
     }
     
@@ -74,8 +74,8 @@ public class DecayCounter {
     
     private func update() {
         
-        let newTime: NSDate = NSDate()
-        let deltaTime: NSTimeInterval = time.timeIntervalSinceDate(newTime)
+        let newTime: Date = Date()
+        let deltaTime: TimeInterval = time.timeIntervalSince(newTime)
         
         if (deltaTime > 0) {
             
