@@ -1,0 +1,6 @@
+{
+  "name": "Swift-half-life",
+  "tagline": "",
+  "body": "# swift-half-life\r\nSample class written in Swift 3 implementing an exponentially time-decaying counter.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
